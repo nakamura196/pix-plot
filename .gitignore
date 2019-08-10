@@ -3,3 +3,4 @@ data/
 *.pem
 *.swp
 output/image_vectors
+output/image_vectors.zip
