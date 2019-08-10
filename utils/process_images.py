@@ -40,7 +40,7 @@ flags = tf.app.flags
 flags.DEFINE_string('model_dir', '/tmp/imagenet', 'The location of downloaded imagenet model')
 flags.DEFINE_string('image_files', '', 'A glob path of images to process')
 flags.DEFINE_integer('clusters', 20, 'The number of clusters to display in the image browser')
-flags.DEFINE_boolean('validate_images', True, 'Whether to validate images before processing')
+flags.DEFINE_boolean('validate_images', False, 'Whether to validate images before processing')
 flags.DEFINE_string('output_folder', 'output', 'The folder where output files will be stored')
 flags.DEFINE_string('layout', 'umap', 'The layout method to use {umap|tsne}')
 FLAGS = flags.FLAGS

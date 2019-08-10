@@ -2,3 +2,4 @@ data/
 .DS_Store
 *.pem
 *.swp
+output/image_vectors
